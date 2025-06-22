@@ -15,7 +15,7 @@ SELECT * FROM users WHERE username = 'admin' AND password = 'password';
 An attacker could input something like this:
 
 ```sql
-username: ' OR '1'='1
+ ' OR '1'='1
 ```
 
 Which would turn the query into:
